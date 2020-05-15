@@ -1,0 +1,679 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@-ms-viewport{
+  width: device-width;
+}
+
+/*------------------------ MY STYLES START HERE------------------------*/
+
+#wrapper{
+
+	width: 100%;
+	background-color: black;
+
+}
+
+#blackness{
+	position: relative;
+	height: 150vw;
+	background-color: black;
+}
+nav{
+
+	position: fixed;
+	height: 5vw;
+	width: 100%;
+	background-color:;
+	z-index: 1000;
+
+}
+
+nav ul{
+	position: relative;
+	left: 30vw;
+	
+}
+
+
+
+nav ul li{
+
+	display: inline-block;
+	font-family: 'Roboto Mono', monospace;;
+	color: #BABABA;
+	font-size: 1vw;
+	float: right;
+	padding-top: 3.5vw;
+	padding-right: 3vw;
+	background-color:;
+}
+
+#boing{
+
+	position: relative;
+	width: 100%;
+	background-color: red;
+}
+nav img{
+
+	position: absolute;
+	width: 4vw;
+	padding-top: 2vw;
+	margin-left: 94vw;
+	background-color:;
+}
+
+#navpurp{
+
+
+}
+
+nav:hover #navback{
+
+	z-index: -100;
+	
+}
+
+nav:hover ul{
+
+	left:-5vw;
+
+}
+
+
+
+
+#splash{
+
+	position: relative;
+	width: 100%;
+	height: 30vw;
+	background-color:;
+	
+
+}	
+
+#johnnyTran{
+
+
+	position: sticky;
+	padding-top: 3vw;
+	font-family: 'Vollkhov', serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 12em;
+	padding-top: 20vw;
+	padding-left: 8vw;
+	letter-spacing: em;
+	-webkit-text-stroke-width: .03em;
+    -webkit-text-stroke-color: black;
+	
+
+
+	
+	
+}
+
+#Johnny{
+
+	 background: -webkit-linear-gradient(rgba(237,237,237,1) 30%, rgba(83,83,83,1) 65%);
+ 	 -webkit-background-clip: text;
+  	 -webkit-text-fill-color: transparent;
+  	filter: drop-shadow(10px 8px #BABABA);
+  	 }
+
+
+#Tran{
+
+	padding-left: 25vw;
+	 background: -webkit-linear-gradient(rgba(237,237,237,1) 30%, rgba(83,83,83,1) 65%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(10px 8px #BABABA);
+}
+
+#splash img{
+
+	position: relative;
+	width: 55em;
+	top: -34vw;
+	right: -39vw;
+}
+
+#about{
+
+	position: relative;
+
+	height:30vw;
+	font-family: 'Roboto Mono', monospace;
+
+	font-size: 5vw;
+	color: #BABABA;
+
+	padding-left: 13vw;
+	padding-top: .7vw;
+
+}
+
+#about3{
+
+	position: relative;
+	padding-left: 29vw;
+}
+
+#about img{
+
+	position: relative;
+	width: 12em;
+	top: -7vw;
+	left: -5vw;
+	
+
+}
+
+
+
+.titleHome{
+
+	position: relative;
+
+	width: 100%;
+	padding-top: 50vw;
+	
+}
+
+
+
+
+
+.titleHome h2{
+
+	position: relative;
+	width:33% ;
+	display: inline-block;
+	float:left;
+	text-align: center;
+	padding-top:vw;
+	margin-left: vw;
+	background-color: ;
+	color: #BABABA;
+	z-index: 1000;
+	font-family: 'Vollkhov', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 4em;
+	letter-spacing: .03em;
+	-webkit-text-stroke-width: .035em;
+    -webkit-text-stroke-color: black;
+    	background: -webkit-linear-gradient(rgba(237,237,237,1) 40%, rgba(83,83,83,1) 70%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(4px 4px #BABABA);
+  margin-top: 8vw;
+
+
+
+}
+
+#hover1{
+
+}
+
+.titleHome img{
+
+	position: absolute;
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	top: 64vw;
+	left: 35vw;
+	z-index: -10;
+
+
+
+
+}
+
+
+.titleHome h2:hover {
+
+	-webkit-text-stroke-color: #DC24FF;
+
+}
+
+#hover1:hover+#kuros{
+
+	z-index: 100
+
+}
+
+#hover2:hover+#smits{
+
+	z-index: 100
+
+}
+
+#hover3:hover+#fours{
+
+	z-index: 100
+
+}
+
+#hover4:hover+#jazzs{
+
+	z-index: 100
+
+}
+
+#hover5:hover+#blogs{
+
+	z-index: 100
+
+}
+
+#hover6:hover+#wave{
+
+	z-index: 100
+
+}
+
+
+footer{
+
+	position: relative;
+	width: 100%;
+	height:5vw;
+	background-color: black;
+}
+
+footer p{
+	position: relative;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1em;
+	color:#BABABA;
+	top: 1vw;
+	text-align: center;
+	
+
+}
+
+
+           /*------------PROJECT PAGE STYLES-------*/
+
+#KuroBack{
+
+	position: relative;
+	width: 100%;
+	background:url(images/KuroWorm.png) no-repeat center center;
+	background-size:90vw;
+	
+}
+#workTitle h1{
+
+	position: relative;
+	font-family: 'Vollkhov', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 6em;
+	letter-spacing: .03em;
+	-webkit-text-stroke-width: .035em;
+    -webkit-text-stroke-color: black;
+    background: -webkit-linear-gradient(rgba(237,237,237,1) 80%, rgba(83,83,83,1) 90%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(3px 3px #BABABA);
+  	text-align: center;
+  	padding-top: 14vw;
+
+
+}
+
+#workDescrip p{
+
+	position: relative;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1em;
+	color: #BABABA;
+	z-index: 1000;
+	line-height: 1.5em;
+	text-align: left;
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 3vw;
+
+}
+
+#firstGap{
+
+	padding-top: 3vw;
+}
+.workImages img{
+
+	position: relative;
+	display: block;
+	max-width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3vw;
+	z-index: 100;
+	
+}
+
+
+
+
+/*-----------------INDEX STYLES-------------------*/
+
+.indexHome{
+
+	position: relative;
+
+	width: 100%;
+	padding-top: vw;
+	
+}
+
+
+
+
+
+.indexHome h2{
+
+	position: relative;
+	width:60% ;
+	display: ;
+	float:left;
+	text-align: left;
+	padding-top:vw;
+	margin-left: vw;
+	background-color: ;
+	color: #BABABA;
+	z-index: 1000;
+	font-family: 'Vollkhov', serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 3em;
+	letter-spacing: .03em;
+	-webkit-text-stroke-width: .035em;
+    -webkit-text-stroke-color: black;
+    	background: -webkit-linear-gradient(rgba(237,237,237,1) 40%, rgba(83,83,83,1) 70%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(3px 3px #BABABA);
+  padding-left: 9vw;
+  margin-top: 6vw;
+
+
+
+}
+
+
+
+.indexHome img{
+
+	position: fixed;
+	display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	top: 8vw;
+	left: 48vw;
+	z-index: -10;
+
+
+
+
+}
+
+
+.indexHome h2:hover {
+
+	-webkit-text-stroke-color: #DC24FF;
+
+}
+
+#hover1:hover+#kuros{
+
+	z-index: 100
+
+}
+
+#hover2:hover+#smits{
+
+	z-index: 100
+
+}
+
+#hover3:hover+#fours{
+
+	z-index: 100
+
+}
+
+#hover4:hover+#jazzs{
+
+	z-index: 100
+
+}
+
+#hover5:hover+#blogs{
+
+	z-index: 100
+
+}
+
+#hover6:hover+#wave{
+
+	z-index: 100
+
+}
+
+#galleryFooter{
+
+	position: relative;
+	padding-top: 45vw;
+	z-index: 1;
+}
+
+#Black{
+
+	position: relative;
+	background-color: black;
+	height:28vw;
+}
+
+#indeximgbak{
+
+	position: fixed;
+	top:6vw;
+	width: 54%;
+	z-index: 99;
+	right: 6vw;
+
+}
+
+#galleryFooter p{
+
+	position: relative;
+	top: 25vw;
+
+}
+
+/*------------------SOCIAL STYLES---------------------*/
+
+
+#socialBackg{
+
+	position: relative;
+	width: 100%;
+	background:url(images/socialworm.png) no-repeat center center;
+	background-size:50vw;
+
+}
+#socialHeadings{
+
+	position: relative;
+	width: 100%
+}
+
+#socialHeadings h2{
+
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	font-family: 'Vollkhov', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 6em;
+	letter-spacing: .03em;
+	-webkit-text-stroke-width: .025em;
+    -webkit-text-stroke-color: black;
+    background: -webkit-linear-gradient(rgba(237,237,237,1) 80%, rgba(83,83,83,1) 90%); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(3px 3px #BABABA);
+  	text-align: center;
+  	padding-top: 14vw;
+	
+	
+
+
+}
+
+#socialHeadings h2:hover{
+
+	-webkit-text-stroke-color: #DC24FF;
+	transition: ease-in .1s;
+}
+	
+/*----------------PROJECT PAGE IMAGES-----------------*/
+
+#Kuro1{
+
+	position: relative;
+	
+}
+
+#Kuro2{
+
+	position: relative;
+	
+}
+
+#Kuro3{
+
+	position: relative;
+	padding-bottom: 3vw;
+
+}
+
+
+
+#chunBack{
+
+	position: relative;
+	width: 100%;
+	background:url(images/socialworm.png) no-repeat center center;
+	background-size:60vw;
+}
+
+#Kuro1a{
+
+	position: relative;
+	
+}
+
+#Kuro2a{
+
+	position: relative;
+	
+}
+
+#Kuro3a{
+
+	position: relative;
+	padding-bottom: vw;
+
+}
+
+#Kuro4a{
+
+	position: relative;
+	padding-bottom: 3vw;
+}
+
+#Kuro1b{
+
+	position: relative;
+	padding-bottom: 3vw;
+
+}
+#socialBackg{
+	position: relative;
+	width: 100%;
+	background:url(images/socialworm.png) no-repeat center center;
+	background-size:60vw;
+
+}
+
+
+
+
+
+
+
+
+
